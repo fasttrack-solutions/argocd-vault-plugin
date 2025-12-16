@@ -1,3 +1,4 @@
+version: 2
 project_name: "argocd-vault-plugin"
 
 builds:
@@ -28,4 +29,4 @@ archives:
   - format: binary
 
 changelog:
-  skip: true
+  disable: true
